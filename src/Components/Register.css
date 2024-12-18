@@ -1,0 +1,124 @@
+/* Register Container */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f9fc;
+    margin: 0;
+  }
+  
+  /* Card Styling */
+  .register-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styling */
+  .register-header {
+    text-align: center;
+    color: #333333;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Form Layout */
+  .register-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 1rem 1.5rem; /* Row gap and column gap */
+  }
+  
+  /* Full Width Styling */
+  .register-form input,
+  .register-form select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .register-form input:focus,
+  .register-form select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Full-width Button */
+  .register-button {
+    grid-column: 1 / -1; /* Makes button span both columns */
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Already Have Account Section */
+  .already-have-account {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 1rem;
+    color: #555;
+    font-size: 0.9rem;
+  }
+  
+  .already-have-account a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .already-have-account a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .register-form {
+      grid-template-columns: 1fr; /* Switch to single column for small screens */
+    }
+  }
+  
+  /* Form Layout with Spacing */
+.register-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 1rem 2rem; /* Row gap = 1rem, Column gap = 2rem */
+  }
+  
+  /* Input and Select Fields Styling */
+  .register-form input,
+  .register-form select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .register-form input:focus,
+  .register-form select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
